@@ -1,4 +1,11 @@
+# Дано число. Вывести на экран название дня недели, который соответствует
+# этому номеру.
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import sys
+
 if __name__ == '__main__':
     n = input("Number of the day of the week")
     n = int(n)
@@ -18,5 +25,5 @@ if __name__ == '__main__':
     elif n == 7:
         print("Sunday")
     else:
-        print("Please choose a number from 1 to 7")
+        print("Please choose a number in range from 1 to 7")
         exit(1)
